@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Task;
 use Illuminate\Http\Request;
 
 class TaskController extends Controller
@@ -13,7 +14,8 @@ class TaskController extends Controller
      */
     public function index()
     {
-        //
+        $tasks = Task::all();
+        return inertia('ShowAllTasks' , compact('tasks'));
     }
 
     /**
@@ -23,7 +25,7 @@ class TaskController extends Controller
      */
     public function create()
     {
-        //
+        return inertia('CreateNewTask');
     }
 
     /**
