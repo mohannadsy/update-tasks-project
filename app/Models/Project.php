@@ -14,4 +14,8 @@ class Project extends Model
         'description'
     ];
 
+    public function users(){
+        return $this->belongsToMany('App\Models\User' , 'project_user');
+    }
+
 }
