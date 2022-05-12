@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<style>
+body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+</style>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">

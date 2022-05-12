@@ -15,7 +15,7 @@ class ProjectController extends Controller
     public function index()
     {
         $projects = Project::all();
-        return inertia('' , compact('projects'));
+        return inertia('ShowAllProjects' , compact('projects'));
     }
 
     /**
@@ -25,7 +25,7 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        //
+        return inertia('CreateNewProject');
     }
 
     /**
@@ -36,7 +36,7 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Project::create($request->all());
     }
 
     /**
