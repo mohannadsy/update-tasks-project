@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\TaskController;
+use App\Models\User;
 use Illuminate\Foundation\Application;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -32,8 +34,13 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return Inertia::render('Dashboard');
+        $permissions = Auth::user()->permissions;
+        return Inertia::render('Dashboard' , compact('permissions'));
     })->name('dashboard');
+
+    // Routes Just For Admin
+
+
 });
 
 
