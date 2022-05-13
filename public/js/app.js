@@ -26569,7 +26569,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n*{\n    direction: rtl;\n}\n.container{\n    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);\n}\n.contact-form{\n    background: #fff;\n    margin-top: 10%;\n    margin-bottom: 5%;\n    width: 70%;\n}\n.contact-form .form-control{\n    border-radius:1rem;\n}\n.contact-form form{\n    padding: 14%;\n}\n.contact-form h3{\n    margin-bottom: 8%;\n    margin-top: -10%;\n    text-align: center;\n    color: #0062cc;\n}\n.contact-form .btnContact {\n    width: 50%;\n    border: none;\n    border-radius: 1rem;\n    padding: 1.5%;\n    background: #dc3545;\n    font-weight: 600;\n    color: #fff;\n    cursor: pointer;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n*{\n    direction: rtl;\n}\n.container{\n    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);\n}\n.contact-form{\n    background: #fff;\n    margin-top: 10%;\n    margin-bottom: 5%;\n    width: 70%;\n}\n.contact-form .form-control{\n    border-radius:1rem;\n}\n.contact-form form{\n    padding: 14%;\n}\n.contact-form h3{\n    margin-bottom: 8%;\n    margin-top: -10%;\n    text-align: center;\n    color: #0062cc;\n}\n.contact-form .btnContact {\n    width: 50%;\n    border: none;\n    border-radius: 1rem;\n    padding: 1.5%;\n    background: #dc3545;\n    font-weight: 600;\n    color: #fff;\n    cursor: pointer;\n}\ntextarea{\n    resize: none;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
